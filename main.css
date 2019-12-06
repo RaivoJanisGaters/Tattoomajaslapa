@@ -1,0 +1,56 @@
+.table{
+    background-color: #2a6eb1 !important;
+    width: 600px;
+    align-content: center;
+    color: white;
+}
+.container{
+    width:1000px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+body{
+    background-image: url("images/melna.jpg");
+    background-repeat:fill;
+    background-size:cover;
+}
+.bg-dark {
+    background-color: #2a6eb1 !important;
+}
+.photo-gallery p {
+    color:#7d8285;
+}
+
+.photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:#2a6eb1;;
+}
+
+@media (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom:25px;
+        padding-top:25px;
+        font-size:24px;
+    }
+}
+
+.photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+
+.photo-gallery .item {
+    padding-bottom:30px;
+}

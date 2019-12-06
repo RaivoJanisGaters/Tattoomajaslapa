@@ -1,34 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="mainbox">
-    <div class="menu">
-        <ul>
-            <li><a href="index.html" class="active">Jaunumi</a></li>
-            <li><a href="galerija.html">Galerija</a></li>
-            <li><a href="kontakti.html">Kontakti</a></li>
-        </ul>
-    </div>
-    <div class = "saloni">
-        <b>Top 5 tetovēšanas saloni</b><br/><hr/>
-        Aplūkot šeit:
-        <ul>
-            <a href="http://rigastinte.lv/">Rīgas tinte</a><br/>
-            <a href="http://www.tattoofrequency.lv/en/">Fancy tatto</a><br/>
-            <a href="http://www.viptattoo.lv/index.php?option=com_content&view=article&id=11&Itemid=7&lang=en">Vip tatto</a><br/>
-            <a href="https://tattoomosquito.lv/">Tattoo Mosquito</a><br/>
-            <a href="https://tattoobakery.lv/lv/par-mums/">tatto bakery</a><br/>
-        </ul>
 
-</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img src="images/nellijalogobalts.png" alt="logo" style="width:90px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Jaunumi</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="galerija.html" id="navbardrop" data-toggle="dropdown">
+                Galerija
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="galerija.html">Bildes</a>
+                <a class="dropdown-item" href="video_galerija.html">Video</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="kontakti.html">Kontakti</a>
+        </li>
+    </ul>
+</nav>
+<br>
+
+<table class="table table-striped table-hover">
+    <caption><strong>Tattoo Prices By Size</strong></caption>
+    <thead>
+    <tr>
+        <th>Izmērs</th>
+        <th>Cena</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Tiny Tattoo (Under 2 in)</td>
+        <td><strong>$30 – $100</strong></td>
+    </tr>
+    <tr>
+        <td>Small Tattoo (2 - 4 in)</td>
+        <td><strong>$50 – $250</strong></td>
+    </tr>
+    <tr>
+        <td>Medium Tattoo (4 - 6 in)</td>
+        <td><strong>$150 – $450</strong></td>
+    </tr>
+    <tr>
+        <td>Large Tattoo (6+ in)</td>
+        <td><strong>$500 – $4,000</strong></td>
+    </tr>
+    </tbody>
+</table>
+
 </body>
 </html>

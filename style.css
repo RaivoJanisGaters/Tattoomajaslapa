@@ -1,8 +1,9 @@
 body {
     background-image: url("images/melna.jpg");
-    background-repeat:no-repeat;
+    background-repeat:fill;
     background-size:cover;
 }
+
 .saloni{
     background-color: grey;
 }
@@ -59,12 +60,16 @@ body {
 
 .gallery{
     max-width: 200px;
-    alignment: center;
-}
-.mgallery{
-    text-align: center;
+    alignment: left
+;
+
 }
 
+.mgallery{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 .videofails{
     position: relative;
 }
