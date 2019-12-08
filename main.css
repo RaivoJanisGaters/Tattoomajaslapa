@@ -1,6 +1,14 @@
+.text-center {
+    text-align: center !important;
+    color: white;
+}
+.tattoo{
+    text-align: center;
+    padding-top: 30px;
+}
 .h2, h2 {
     font-size: 2rem;
-    color: white;
+    color: #2a6eb1;
     text-align: center;
 }
 
@@ -49,4 +57,56 @@ body{
 
 .photo-gallery .item {
     padding-bottom:30px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: #1d2124;
+}
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    color: white;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #1d2124;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #545b62;
+}
+.table-dark {
+    color: #fff;
+    background-color: #1d2124;
+}
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-section iframe {
+    left:0;
+    top:0;
+    height:90%;
+    width:90%;
+    position:absolute;
+}
+.kartina{
+    position: relative;
+    display: -ms-flexbox;
+    flex-direction: column;
+    min-width: 0;
 }
