@@ -91,22 +91,3 @@ body{
     color: #fff;
     background-color: #1d2124;
 }
-.map-container-section {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.map-container-section iframe {
-    left:0;
-    top:0;
-    height:90%;
-    width:90%;
-    position:absolute;
-}
-.kartina{
-    position: relative;
-    display: -ms-flexbox;
-    flex-direction: column;
-    min-width: 0;
-}
